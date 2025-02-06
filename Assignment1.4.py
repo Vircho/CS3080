@@ -28,6 +28,6 @@ while not entered_correct:
     if not bad_input:
         entered_correct = True
 
-#Print a increasing, right-oriented triangle based on number of lines
+#Print an increasing, right-oriented triangle based on number of lines
 for star in range(1, lines + 1):
     print(' ' * (lines - star) + '*' * star)

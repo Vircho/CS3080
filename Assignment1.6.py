@@ -3,6 +3,7 @@ entered_correct = False
 bad_input = False
 lines = 0
 stars = 1
+spaces = 0
 
 #Get a positive integer to represent amount of lines
 while not entered_correct:
@@ -29,6 +30,7 @@ while not entered_correct:
     if not bad_input:
         entered_correct = True
 
-#Print a increasing, middle-oriented triangle without spaces based on number of lines
-for this_line in range(1, lines + 1):
-    None
+#Print an increasing, middle-oriented triangle without spaces based on number of lines
+for this_line in range(0, lines):
+    print(' ' * (lines - this_line - 1) + '*' * stars + ' ' * (lines - this_line - 1))
+    stars = stars + 2
