@@ -1,0 +1,7 @@
+The soccer game is a team sport played between 2 teams of 11 
+players each, who almost exclusively use their feet to propel 
+a ball around a rectangular field. The objective of the game is to 
+score more goals than the opposing team by moving the ball 
+beyond the goal line into a rectangular framed goal defended by the 
+opposing team. Traditionally, the game has been played over 
+two 45 minute halves, for a total match time of 90 minutes. 
